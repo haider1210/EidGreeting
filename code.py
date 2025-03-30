@@ -14,7 +14,7 @@ def ramdan_celebrate_log():
         
 def wishes_write(string):
     for char in string:
-        sys.stdout.write(colored(char, 'white'))
+        sys.stdout.write(colored(char, 'yellow'))
         sys.stdout.flush()
         time.sleep(0.01)
 
@@ -42,4 +42,4 @@ wishes_write('''
 ''')
 print("\n\n")
 
-print(colored("Eid Mubarak! To All", "yellow", attrs=["bold"]))
+print(colored("Eid Mubarak! To All", "green", attrs=["bold"]))
